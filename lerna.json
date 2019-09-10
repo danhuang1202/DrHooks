@@ -4,8 +4,10 @@
   ],
   "version": "independent",
   "command": {
-    "publish": {
-      "conventionalCommits": true
+    "version": {
+      "conventionalCommits": true,
+      "githubRelease": true,
+      "message": "chore(release): version %v"
     }
   }
 }
