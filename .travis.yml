@@ -23,4 +23,5 @@ jobs:
         - lerna bootstrap
         - lerna run ci-build --stream
         - git checkout master
+        - git remote set-url origin https://${GITUB_TOKEN}@github.com/danhuang1202/DrHooks
         - lerna publish --yes
