@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "lerna:version": "lerna version --conventional-commits"
+    "lerna:version": "lerna version --conventional-commits --yes"
   },
   "devDependencies": {
     "husky": "^3.0.5",
