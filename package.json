@@ -1,6 +1,9 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "lerna:version": "lerna version ${LERNA_ARGS:=--yes}"
+  },
   "devDependencies": {
     "husky": "^3.0.5",
     "lerna": "^3.16.4"
