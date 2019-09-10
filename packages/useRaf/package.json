@@ -35,7 +35,7 @@
   "author": "danhuang1202@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.8.6"
+    "react": "^16.9.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0"
@@ -45,8 +45,10 @@
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.6.0",
+    "@testing-library/react": "^9.1.4",
     "@types/jest": "^24.0.18",
     "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
     "@typescript-eslint/eslint-plugin": "^2.1.0",
     "@typescript-eslint/parser": "^2.1.0",
     "babel-jest": "^24.9.0",
@@ -57,6 +59,7 @@
     "jest": "^24.9.0",
     "lint-staged": "^9.2.5",
     "prettier": "^1.18.2",
+    "react-dom": "^16.9.0",
     "rollup": "^1.21.0",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
