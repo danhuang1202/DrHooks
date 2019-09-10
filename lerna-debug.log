@@ -1,4 +1,6 @@
 0 silly argv { _: [ 'version' ],
+0 silly argv   yes: true,
+0 silly argv   y: true,
 0 silly argv   lernaVersion: '3.16.4',
 0 silly argv   '$0': '/Users/danhuang/GitHub/DrHooks/node_modules/.bin/lerna' }
 1 notice cli v3.16.4
@@ -12,13 +14,13 @@
 8 verbose currentBranch master
 9 silly remoteBranchExists
 10 silly isBehindUpstream
-11 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 4
+11 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
 12 silly hasTags
 13 verbose hasTags false
 14 info Assuming all packages changed
 15 verbose updated @dh-react-hooks/use-raf
-16 verbose git-describe undefined => "e7b4239"
-17 silly git-describe parsed => {"refCount":"15","sha":"e7b4239","isDirty":false}
+16 verbose git-describe undefined => "ba6f6ce"
+17 silly git-describe parsed => {"refCount":"17","sha":"ba6f6ce","isDirty":false}
 18 silly independent for @dh-react-hooks/use-raf at /Users/danhuang/GitHub/DrHooks/packages/useRaf
 19 verbose getChangelogConfig using preset "conventional-changelog-angular"
 20 silly npa Result {
@@ -38,38 +40,39 @@
 21 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
 22 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
 23 verbose independent increment 0.0.0 by minor
-24 info execute Creating releases...
-25 silly lifecycle No script for "preversion" in "root", continuing
-26 silly lifecycle No script for "preversion" in "@dh-react-hooks/use-raf", continuing
-27 silly lifecycle No script for "version" in "@dh-react-hooks/use-raf", continuing
-28 silly independent for @dh-react-hooks/use-raf at /Users/danhuang/GitHub/DrHooks/packages/useRaf
-29 silly independent writing new entry: "# 0.1.0 (2019-09-10)\n\n\n### Bug Fixes\n\n* add precommit script in packages/useRaf ([e5ca5cc](https://github.com/danhuang1202/DrHooks/commit/e5ca5cc))\n* rename script to lint-Staged ([ce027eb](https://github.com/danhuang1202/DrHooks/commit/ce027eb))\n\n\n### Features\n\n* add useRaf package ([abbb2f4](https://github.com/danhuang1202/DrHooks/commit/abbb2f4))\n\n\n\n"
-30 verbose independent wrote /Users/danhuang/GitHub/DrHooks/packages/useRaf/CHANGELOG.md
-31 silly lifecycle No script for "version" in "root", continuing
-32 silly gitAdd [ '/Users/danhuang/GitHub/DrHooks/packages/useRaf/package.json',
-32 silly gitAdd   '/Users/danhuang/GitHub/DrHooks/packages/useRaf/CHANGELOG.md' ]
-33 silly gitCommit chore(release): version %v
-33 silly gitCommit
-33 silly gitCommit  - @dh-react-hooks/use-raf@0.1.0
-34 verbose git [ 'commit',
-34 verbose git   '-F',
-34 verbose git   '/private/var/folders/k1/f9d_pp1s73d93sgfgtcnxj2h0000gn/T/11be1b55-5c10-4384-a4bd-93735056c450/lerna-commit.txt' ]
-35 silly gitTag @dh-react-hooks/use-raf@0.1.0
-36 verbose git [ 'tag',
-36 verbose git   '@dh-react-hooks/use-raf@0.1.0',
-36 verbose git   '-m',
-36 verbose git   '@dh-react-hooks/use-raf@0.1.0' ]
-37 silly lifecycle No script for "postversion" in "@dh-react-hooks/use-raf", continuing
-38 silly lifecycle No script for "postversion" in "root", continuing
-39 info git Pushing tags...
-40 silly gitPush origin master
-41 silly parseGitRepo
-42 verbose git [ 'config', '--get', 'remote.origin.url' ]
-43 silly createGitHubClient
-44 error Error: A GH_TOKEN environment variable is required.
-44 error     at createGitHubClient (/Users/danhuang/GitHub/DrHooks/node_modules/@lerna/github-client/lib/github-client.js:17:11)
-44 error     at createClient (/Users/danhuang/GitHub/DrHooks/node_modules/@lerna/version/lib/create-release.js:16:14)
-44 error     at createRelease (/Users/danhuang/GitHub/DrHooks/node_modules/@lerna/version/lib/create-release.js:24:18)
-44 error     at tasks.push (/Users/danhuang/GitHub/DrHooks/node_modules/@lerna/version/index.js:271:9)
-44 error     at pReduce (/Users/danhuang/GitHub/DrHooks/node_modules/p-waterfall/index.js:4:73)
-44 error     at Promise.all.then.value (/Users/danhuang/GitHub/DrHooks/node_modules/p-reduce/index.js:16:10)
+24 info auto-confirmed
+25 info execute Creating releases...
+26 silly lifecycle No script for "preversion" in "root", continuing
+27 silly lifecycle No script for "preversion" in "@dh-react-hooks/use-raf", continuing
+28 silly lifecycle No script for "version" in "@dh-react-hooks/use-raf", continuing
+29 silly independent for @dh-react-hooks/use-raf at /Users/danhuang/GitHub/DrHooks/packages/useRaf
+30 silly independent writing new entry: "# 0.1.0 (2019-09-10)\n\n\n### Bug Fixes\n\n* add precommit script in packages/useRaf ([e5ca5cc](https://github.com/danhuang1202/DrHooks/commit/e5ca5cc))\n* rename script to lint-Staged ([ce027eb](https://github.com/danhuang1202/DrHooks/commit/ce027eb))\n\n\n### Features\n\n* add useRaf package ([abbb2f4](https://github.com/danhuang1202/DrHooks/commit/abbb2f4))\n\n\n\n"
+31 verbose independent wrote /Users/danhuang/GitHub/DrHooks/packages/useRaf/CHANGELOG.md
+32 silly lifecycle No script for "version" in "root", continuing
+33 silly gitAdd [ '/Users/danhuang/GitHub/DrHooks/packages/useRaf/package.json',
+33 silly gitAdd   '/Users/danhuang/GitHub/DrHooks/packages/useRaf/CHANGELOG.md' ]
+34 silly gitCommit chore(release): version %v
+34 silly gitCommit
+34 silly gitCommit  - @dh-react-hooks/use-raf@0.1.0
+35 verbose git [ 'commit',
+35 verbose git   '-F',
+35 verbose git   '/private/var/folders/k1/f9d_pp1s73d93sgfgtcnxj2h0000gn/T/a7680170-8c54-4f53-a9cf-4720b63ce876/lerna-commit.txt' ]
+36 silly gitTag @dh-react-hooks/use-raf@0.1.0
+37 verbose git [ 'tag',
+37 verbose git   '@dh-react-hooks/use-raf@0.1.0',
+37 verbose git   '-m',
+37 verbose git   '@dh-react-hooks/use-raf@0.1.0' ]
+38 silly lifecycle No script for "postversion" in "@dh-react-hooks/use-raf", continuing
+39 silly lifecycle No script for "postversion" in "root", continuing
+40 info git Pushing tags...
+41 silly gitPush origin master
+42 silly parseGitRepo
+43 verbose git [ 'config', '--get', 'remote.origin.url' ]
+44 silly createGitHubClient
+45 error Error: A GH_TOKEN environment variable is required.
+45 error     at createGitHubClient (/Users/danhuang/GitHub/DrHooks/node_modules/@lerna/github-client/lib/github-client.js:17:11)
+45 error     at createClient (/Users/danhuang/GitHub/DrHooks/node_modules/@lerna/version/lib/create-release.js:16:14)
+45 error     at createRelease (/Users/danhuang/GitHub/DrHooks/node_modules/@lerna/version/lib/create-release.js:24:18)
+45 error     at tasks.push (/Users/danhuang/GitHub/DrHooks/node_modules/@lerna/version/index.js:271:9)
+45 error     at pReduce (/Users/danhuang/GitHub/DrHooks/node_modules/p-waterfall/index.js:4:73)
+45 error     at Promise.all.then.value (/Users/danhuang/GitHub/DrHooks/node_modules/p-reduce/index.js:16:10)
