@@ -13,4 +13,7 @@ jobs:
         - lerna run ci-build --stream
         - git checkout master
         - git remote set-url origin https://${GITUB_TOKEN}@github.com/danhuang1202/DrHooks
+        - git config user.name "danhuang1202"
+        - git config user.email "4784004+danhuang1202@users.noreply.github.com"
+        - GH_TOKEN=${GITHUB_TOKEN} lerna version ${LERNA_ARGS:=--yes}
         - lerna publish from-git --yes
