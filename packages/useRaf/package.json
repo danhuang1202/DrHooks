@@ -12,6 +12,7 @@
     "build:type": "tsc --project ./config/tsconfig.type.json",
     "lint": "eslint './{src,__tests__}/**/*.ts'",
     "prettier": "prettier --check ./**/*.{ts,js,css,json}",
+    "precommit": "lint-staged",
     "test": "jest --no-cache --config ./config/jest.config.js --coverage=$ENABLE_COVERAGE --coverageDirectory=$COVERAGE_DIRECTORY"
   },
   "lint-staged": {
@@ -55,6 +56,7 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1",
     "jest": "^24.9.0",
+    "lint-staged": "^9.2.5",
     "prettier": "^1.18.2",
     "rollup": "^1.21.0",
     "rollup-plugin-babel": "^4.3.3",
