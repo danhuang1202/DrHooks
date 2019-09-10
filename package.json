@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "lerna:version": "lerna version --conventional-commits --yes",
-    "lerna:publish": "lerna publish from-git --yes"
+    "lerna:publish": "lerna publish"
   },
   "devDependencies": {
     "husky": "^3.0.5",
