@@ -7,8 +7,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm test"
       "pre-commit": "lerna run --concurrency 1 --stream lint-staged",
+      "pre-push": "lerna run --concurrency 1 test"
     }
   }
 }
