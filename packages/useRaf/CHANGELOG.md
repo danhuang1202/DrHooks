@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.1](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-raf@0.5.0...@dh-react-hooks/use-raf@0.5.1) (2019-09-10)
+
+
+### Bug Fixes
+
+* remvoe codecov ([155222c](https://github.com/danhuang1202/DrHooks/commit/155222c))
+
+
+
+
+
 # [0.5.0](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-raf@0.4.0...@dh-react-hooks/use-raf@0.5.0) (2019-09-10)
 
 
