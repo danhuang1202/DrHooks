@@ -10,9 +10,9 @@ jobs:
     - stage: lint and test
       name: eslint and prettier
       script: 
-        - npm run prettier
-        - npm run lint
-    - script: npm run ci-test
+        - lerna run prettier
+        - lerna run lint
+    - script: lerna run ci-test
       name: unit test
     - stage: publish
       name: npm publish
