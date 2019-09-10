@@ -12,4 +12,4 @@ jobs:
         - lerna bootstrap
         - lerna run ci-build --stream
         - git checkout master
-        - lerna publish
+        - lerna publish --yes
