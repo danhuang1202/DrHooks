@@ -12,7 +12,7 @@
     "build:type": "tsc --project ./config/tsconfig.type.json",
     "lint": "eslint './{src,__tests__}/**/*.ts'",
     "prettier": "prettier --check ./**/*.{ts,js,css,json}",
-    "precommit": "lint-staged",
+    "lint-staged": "lint-staged",
     "test": "jest --no-cache --config ./config/jest.config.js --coverage=$ENABLE_COVERAGE --coverageDirectory=$COVERAGE_DIRECTORY"
   },
   "lint-staged": {
