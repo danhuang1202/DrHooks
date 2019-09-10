@@ -16,6 +16,7 @@ jobs:
     - script: 
         - lerna bootstrap
         - lerna run ci-test
+        - npm run codecov
       name: unit test
     - stage: publish
       name: npm publish
