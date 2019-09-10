@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-raf@0.3.1...@dh-react-hooks/use-raf@0.4.0) (2019-09-10)
+
+
+### Features
+
+* remove commitzen ([2946cd5](https://github.com/danhuang1202/DrHooks/commit/2946cd5))
+* set access to public ([5827a0c](https://github.com/danhuang1202/DrHooks/commit/5827a0c))
+
+
+
+
+
 # [0.3.0](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-raf@0.2.0...@dh-react-hooks/use-raf@0.3.0) (2019-09-10)
 
 
