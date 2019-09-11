@@ -12,8 +12,19 @@ npm i @dh-react-hooks/useTimeAgo
 ```
 
 ## Arguments
-| props | type | required | default | description |
-| --- | --- | --- | --- | --- |
+  | props | type | required | default | description |
+  | --- | --- | --- | --- | --- |
+  | dateTime | Date / number / string | true | undefined | start date |
+  | options | object | false | undefined | options |
+  <br/>
+
+  - Options
+  
+  | options | type | default | description |
+  | --- | --- | --- | --- |
+  | locale | string | en_US | locale |
+  | localeRegister	| function | custom local register function |
+  | interval | number | 1000 | update interval duration in milliseconds |
 
 ## Way to Ride
 - Common jS
