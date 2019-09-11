@@ -40,7 +40,7 @@ describe('useRaf', () => {
     expect(getByTestId(TEST_ID_STATUS).textContent).toBe('true')
   })
 
-  it.only('should cancelAnimationFrame when time reach duration', () => {
+  it('should cancelAnimationFrame when time reach duration', () => {
     const duration = 1000
     let time = Date.now()
     jest.spyOn(window, 'requestAnimationFrame').mockImplementation(callback => {
