@@ -29,8 +29,7 @@
   "keywords": [
     "react",
     "hooks",
-    "raf",
-    "requestAnimationFrame"
+    "timeago"
   ],
   "author": "danhuang1202@gmail.com",
   "license": "ISC",
