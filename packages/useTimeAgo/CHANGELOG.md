@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/useTimeAgo@0.1.1...@dh-react-hooks/useTimeAgo@0.1.2) (2019-09-11)
+
+
+### Bug Fixes
+
+* add @types/jquery into devDependencies ([1994e4d](https://github.com/danhuang1202/DrHooks/commit/1994e4d))
+
+
+
+
+
 ## [0.1.1](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/useTimeAgo@0.1.0...@dh-react-hooks/useTimeAgo@0.1.1) (2019-09-11)
 
 
