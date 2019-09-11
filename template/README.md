@@ -19,12 +19,12 @@ npm i @dh-react-hooks/packageName
 ```js
 const packageName = require('@dh-react-hooks/packageName')
 
-  const { } = packageName.default({})
+  const {} = packageName.default({})
 ```
 
 - ESM
 ```js
 import packageName from '@dh-react-hooks/packageName'
   
-  const {} = useRaf({})
+  const {} = packageName({})
 ```
