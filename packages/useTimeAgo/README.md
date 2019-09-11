@@ -1,6 +1,6 @@
 # @dh-react-hooks/use-timeago
 
-[![NPM version](https://img.shields.io/npm/v/@dh-react-hooks/useTimeAgo.svg)](https://www.npmjs.com/package/@dh-react-hooks/useTimeAgo)
+[![NPM version](https://img.shields.io/npm/v/@dh-react-hooks/use-timeago.svg)](https://www.npmjs.com/package/@dh-react-hooks/use-timeago)
 [![codecov](https://codecov.io/gh/danhuang1202/DrHooks/branch/master/graph/badge.svg)](https://codecov.io/gh/danhuang1202/DrHooks)
 
 react hooks for [timeago.js](https://github.com/hustcc/timeago.js)
@@ -8,7 +8,7 @@ react hooks for [timeago.js](https://github.com/hustcc/timeago.js)
 
 ## Installation
 ```
-npm i @dh-react-hooks/useTimeAgo
+npm i @dh-react-hooks/use-timeago
 ```
 
 ## Arguments
