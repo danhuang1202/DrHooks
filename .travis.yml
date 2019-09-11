@@ -4,7 +4,6 @@ node_js:
 stages:
   - name: lint and test
   - name: publish
-    if: branch = master
 jobs:
   include:
     - stage: lint and test
