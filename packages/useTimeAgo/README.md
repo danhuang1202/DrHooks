@@ -23,7 +23,7 @@ npm i @dh-react-hooks/useTimeAgo
   | options | type | default | description |
   | --- | --- | --- | --- |
   | locale | string | en_US | locale |
-  | localeRegister	| function | custom local register function |
+  | localeRegister	| function | undefined | custom local register function |
   | interval | number | 1000 | update interval duration in milliseconds |
 
 ## Way to Ride
