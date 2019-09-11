@@ -23,7 +23,7 @@ const useRequestAnimationFrame = ({
   duration,
   callback
 }: Arguments): Result => {
-  const [isActive, setIsActive] = useState(!new Boolean(disable))
+  const [isActive, setIsActive] = useState(!disable)
   const startTime = useRef(null)
   const requestId = useRef(null)
 
