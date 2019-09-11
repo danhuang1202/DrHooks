@@ -1,5 +1,5 @@
 {
-  "name": "@dh-react-hooks/useTimeAgo",
+  "name": "@dh-react-hooks/use-timeago",
   "version": "0.1.2",
   "description": "react hooks for timeago.js",
   "main": "lib/index.js",

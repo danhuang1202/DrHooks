@@ -29,7 +29,7 @@ npm i @dh-react-hooks/useTimeAgo
 ## Way to Ride
 - Common jS
 ```js
-const useTimeAgo = require('@dh-react-hooks/useTimeAgo')
+const useTimeAgo = require('@dh-react-hooks/use-timeago')
 
   const timeago = useTimeAgo.default(
     Date.now(), 
@@ -41,7 +41,7 @@ const useTimeAgo = require('@dh-react-hooks/useTimeAgo')
 
 - ESM
 ```js
-import useTimeAgo from '@dh-react-hooks/useTimeAgo'
+import useTimeAgo from '@dh-react-hooks/use-timeago'
   
   const timeago = useTimeAgo(
     Date.now(), 
@@ -54,7 +54,7 @@ import useTimeAgo from '@dh-react-hooks/useTimeAgo'
 - Custom Local
 
 ```js
-import useTimeAgo from '@dh-react-hooks/useTimeAgo'
+import useTimeAgo from '@dh-react-hooks/use-timeago'
 
   const localeRegister: function(number, index) {
     return [
