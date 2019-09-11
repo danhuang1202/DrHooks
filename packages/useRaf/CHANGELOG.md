@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.3](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-raf@0.6.2...@dh-react-hooks/use-raf@0.6.3) (2019-09-11)
+
+
+### Bug Fixes
+
+* set react version to ^16.8.6 ([c96759f](https://github.com/danhuang1202/DrHooks/commit/c96759f))
+
+
+
+
+
 ## [0.6.2](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-raf@0.6.1...@dh-react-hooks/use-raf@0.6.2) (2019-09-11)
 
 
