@@ -24,7 +24,7 @@ const entries = [
 ]
 
 const options = entries.map(entry => {
-  const { input, output, plugins = {} } = entry
+  const { input, output } = entry
 
   return {
     input,
