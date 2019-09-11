@@ -1,0 +1,74 @@
+{
+  "name": "@dh-react-hooks/use-scrollto",
+  "version": "0.0.0",
+  "description": "react hooks for scrollTo",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "type/index.d.ts",
+  "scripts": {
+    "ci-test": "ENABLE_COVERAGE=true COVERAGE_DIRECTORY=coverage  npm run test",
+    "ci-build": "npm run build:bundle && npm run build:type",
+    "build:bundle": "rollup -c ./config/rollup.config.js",
+    "build:type": "tsc --project ./config/tsconfig.type.json",
+    "lint": "eslint './{src,__tests__}/**/*.ts'",
+    "prettier": "prettier --check ./**/*.{ts,js,css,json}",
+    "lint-staged": "lint-staged",
+    "test": "jest --no-cache --config ./config/jest.config.js --coverage=$ENABLE_COVERAGE --coverageDirectory=$COVERAGE_DIRECTORY"
+  },
+  "lint-staged": {
+    "./**/*.{ts,js,css,json}": [
+      "prettier --write",
+      "git add"
+    ],
+    "./**/*.{ts,tsx,js}": "eslint --max-warnings 0 --no-ignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danhuang1202/DrHooks"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "scrollTo"
+  ],
+  "author": "danhuang1202@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@dh-react-hooks/use-raf": "^0.6.3",
+    "react": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "@testing-library/react": "^9.1.4",
+    "@types/jest": "^24.0.18",
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.6",
+    "@typescript-eslint/eslint-plugin": "^2.1.0",
+    "@typescript-eslint/parser": "^2.1.0",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.2.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.2.5",
+    "prettier": "^1.18.2",
+    "react-dom": "^16.8.6",
+    "rollup": "^1.21.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "typescript": "^3.5.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "d72e41050502acbefb299a8c976947d8b4c293a9"
+}

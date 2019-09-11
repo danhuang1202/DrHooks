@@ -1,0 +1,9 @@
+.eslintignore
+.eslintrc
+.gitignore
+.prettierignore
+.prettierrc
+.github
+__tests__/
+src/
+package-lock.json
