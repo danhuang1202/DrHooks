@@ -31,7 +31,11 @@ const options = entries.map(entry => {
     output,
     plugins: [
       external(),
-      commonjs(),
+      commonjs({
+        namedExports: {
+          'timeago.js': ['format', 'register']
+        }
+      }),
       babel({
         extensions,
         exclude
