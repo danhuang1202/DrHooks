@@ -1,4 +1,4 @@
-# @dh-react-hooks/use-raf
+# @dh-react-hooks/use-timeago
 
 [![NPM version](https://img.shields.io/npm/v/@dh-react-hooks/useTimeAgo.svg)](https://www.npmjs.com/package/@dh-react-hooks/useTimeAgo)
 [![codecov](https://codecov.io/gh/danhuang1202/DrHooks/branch/master/graph/badge.svg)](https://codecov.io/gh/danhuang1202/DrHooks)
