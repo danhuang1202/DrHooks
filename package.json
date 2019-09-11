@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "codecov": "codecov",
-    "lerna:version": "lerna version --conventional-commits --yes"
+    "lerna:version": "lerna version --conventional-commits --yes --no-commit-hooks"
   },
   "devDependencies": {
     "codecov": "^3.5.0",
