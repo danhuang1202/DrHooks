@@ -3,7 +3,7 @@
 [![NPM version](https://img.shields.io/npm/v/@dh-react-hooks/use-scrollto.svg)](https://www.npmjs.com/package/@dh-react-hooks/use-scrollto)
 [![codecov](https://codecov.io/gh/danhuang1202/DrHooks/branch/master/graph/badge.svg)](https://codecov.io/gh/danhuang1202/DrHooks)
 
-
+reast hooks for scrollTo
 
 ## Installation
 ```

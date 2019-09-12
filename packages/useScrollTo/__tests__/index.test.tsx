@@ -1,4 +1,2 @@
-describe('useScrollTo', () => {
-  it('', () => {
-  })
+it('FIXME: add test case laster', () => {
 })

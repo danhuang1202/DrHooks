@@ -34,7 +34,6 @@
   "author": "danhuang1202@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "@dh-react-hooks/use-raf": "^0.6.3",
     "react": "^16.8.6"
   },
   "peerDependencies": {
