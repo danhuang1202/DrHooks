@@ -7,6 +7,8 @@ type Arguments = {
   duration: number
   /** callback function to requestAnimationFrame */
   callback: (number) => void
+  /** run when the requestAnimationFrame ended (reach duration) */
+  onFinish?: () => void
 }
 
 type Result = {
@@ -21,7 +23,8 @@ type Result = {
 const useRequestAnimationFrame = ({
   disable = false,
   duration,
-  callback
+  callback,
+  onFinish
 }: Arguments): Result => {
   const [isActive, setIsActive] = useState(!disable)
   const startTime = useRef(null)
@@ -47,6 +50,9 @@ const useRequestAnimationFrame = ({
       if (!duration || elapsedTime < duration) {
         requestId.current = requestAnimationFrame(update)
       } else {
+        if (typeof onFinish === 'function') {
+          onFinish()
+        }
         stop()
       }
     },
