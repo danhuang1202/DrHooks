@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-raf@0.6.3...@dh-react-hooks/use-raf@0.7.0) (2019-10-16)
+
+
+### Features
+
+* add onFinish prop to useRaf ([c638060](https://github.com/danhuang1202/DrHooks/commit/c638060))
+
+
+
+
+
 ## [0.6.3](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-raf@0.6.2...@dh-react-hooks/use-raf@0.6.3) (2019-09-11)
 
 
