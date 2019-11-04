@@ -1,6 +1,6 @@
 {
   "name": "@dh-react-hooks/use-raf",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "react hooks for requestAnimationFrame",
   "main": "lib/index.js",
   "module": "es/index.js",

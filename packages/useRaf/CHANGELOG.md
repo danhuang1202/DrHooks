@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.1](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-raf@0.7.0...@dh-react-hooks/use-raf@0.7.1) (2019-11-04)
+
+
+### Bug Fixes
+
+* use useEffect to prevent warning of ssr, https://fb.me/react-uselayouteffect-ssr ([1daf364](https://github.com/danhuang1202/DrHooks/commit/1daf364))
+
+
+
+
+
 # [0.7.0](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-raf@0.6.3...@dh-react-hooks/use-raf@0.7.0) (2019-10-16)
 
 
