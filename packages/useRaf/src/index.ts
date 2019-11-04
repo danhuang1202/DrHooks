@@ -1,4 +1,4 @@
-import { useState, useLayoutEffect, useCallback, useRef } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 
 type Arguments = {
   /** disable to call requestAnimationFrame at the first time */
@@ -59,7 +59,7 @@ const useRequestAnimationFrame = ({
     [duration, callback]
   )
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     if (isActive) {
       startTime.current = null
       requestId.current = requestAnimationFrame(update)
