@@ -3,6 +3,12 @@
 [![Build Status](https://travis-ci.org/danhuang1202/DrHooks.svg?branch=master)](https://travis-ci.org/danhuang1202/DrHooks)
 [![codecov](https://codecov.io/gh/danhuang1202/DrHooks/branch/master/graph/badge.svg)](https://codecov.io/gh/danhuang1202/DrHooks)
 
+update npm pkgs via lerna:version
+```js
+npm run lerna:version
+git push --tags origin :branchName
+```
+
 ## Hooks
 - [use-raf](https://github.com/danhuang1202/DrHooks/tree/master/packages/useRaf)
   - react hooks for `requestAnimationFrame`
