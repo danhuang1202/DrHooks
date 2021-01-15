@@ -35,10 +35,10 @@
   "author": "danhuang1202@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.8.6"
+    "react": "^17.0.1"
   },
   "peerDependencies": {
-    "react": "^16.8.6"
+    "react": "^16.8.6 || ^17.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
@@ -59,7 +59,7 @@
     "jest": "^24.9.0",
     "lint-staged": "^9.2.5",
     "prettier": "^1.18.2",
-    "react-dom": "^16.8.6",
+    "react-dom": "^17.0.1",
     "rollup": "^1.21.0",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
