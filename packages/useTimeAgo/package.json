@@ -1,6 +1,6 @@
 {
   "name": "@dh-react-hooks/use-timeago",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "react hooks for timeago.js",
   "main": "lib/index.js",
   "module": "es/index.js",

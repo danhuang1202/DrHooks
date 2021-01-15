@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-timeago@0.2.2...@dh-react-hooks/use-timeago@0.3.0) (2021-01-15)
+
+
+### Features
+
+* support react17 ([3f4e8bc](https://github.com/danhuang1202/DrHooks/commit/3f4e8bc))
+
+
+
+
+
 ## [0.2.2](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-timeago@0.2.1...@dh-react-hooks/use-timeago@0.2.2) (2019-09-11)
 
 
