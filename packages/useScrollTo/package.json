@@ -1,6 +1,6 @@
 {
   "name": "@dh-react-hooks/use-scrollto",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "react hooks for scrollTo",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -33,7 +33,6 @@
   ],
   "author": "danhuang1202@gmail.com",
   "license": "ISC",
-  "dependencies": {},
   "peerDependencies": {
     "react": "^16.8.6 || ^17.0.0"
   },

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-timeago@0.4.0...@dh-react-hooks/use-timeago@0.4.1) (2021-02-21)
+
+
+### Bug Fixes
+
+* install react in devDependencies ([718b655](https://github.com/danhuang1202/DrHooks/commit/718b655))
+
+
+
+
+
 # [0.4.0](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-timeago@0.2.2...@dh-react-hooks/use-timeago@0.4.0) (2021-01-15)
 
 
