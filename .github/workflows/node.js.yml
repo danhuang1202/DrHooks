@@ -23,13 +23,13 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name: install
-      run: npm install
+      run: lerna bootstrap
     - name: lint
-      run: npm run lint
-    - name: build
-      run: npm run build --if-present
+      run: lerna run lint
+    - name: test
+      run: lerna run ci-test
     - name: publish
-      run: npm run publish
-      env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      run: |
+        - lerna run ci-build --stream
+        - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
+        - lerna publish from-git --yes
