@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danhuang1202/DrHooks"
+    "url": "git+https://github.com/danhuang1202/DrHooks.git"
   },
   "keywords": [
     "react",
@@ -72,8 +72,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "d72e41050502acbefb299a8c976947d8b4c293a9",
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/danhuang1202/DrHooks/issues"
+  },
+  "homepage": "https://github.com/danhuang1202/DrHooks#readme"
 }

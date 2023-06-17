@@ -18,5 +18,11 @@
   },
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "workspaces": [
+    "packages/useRaf",
+    "packages/useScroll",
+    "packages/useScrollTo",
+    "packages/useTimeAgo"
+  ]
 }
