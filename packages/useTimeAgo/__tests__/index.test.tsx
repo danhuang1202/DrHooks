@@ -1,3 +1,6 @@
+/**
+ * @jest-environment jsdom
+ */
 import React from 'react'
 import useTimeAgo from '@src/index.ts'
 import { render, cleanup } from '@testing-library/react'

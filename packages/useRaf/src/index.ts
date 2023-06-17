@@ -46,13 +46,16 @@ const useRequestAnimationFrame = ({
 
       const elapsedTime = timestamp - startTime.current
       callback(elapsedTime)
-
+      console.debug('11')
       if (!duration || elapsedTime < duration) {
+        console.debug('12', { duration, elapsedTime })
         requestId.current = requestAnimationFrame(update)
       } else {
         if (typeof onFinish === 'function') {
+          console.debug('13')
           onFinish()
         }
+        console.debug('14')
         stop()
       }
     },

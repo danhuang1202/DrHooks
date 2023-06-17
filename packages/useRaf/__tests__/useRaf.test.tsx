@@ -1,3 +1,6 @@
+/**
+ * @jest-environment jsdom
+ */
 import React from 'react'
 import useRaf from '@src/index.ts'
 import { render, fireEvent, cleanup } from '@testing-library/react'
@@ -41,7 +44,7 @@ describe('useRaf', () => {
   })
 
   it('should cancelAnimationFrame when time reach duration', () => {
-    const duration = 1000
+    const duration = 500
     let time = Date.now()
     jest.spyOn(window, 'requestAnimationFrame').mockImplementation(callback => {
       time += 500
@@ -60,7 +63,7 @@ describe('useRaf', () => {
     fireEvent.click(getByTestId(TEST_ID_START))
     expect(getByTestId(TEST_ID_STATUS).textContent).toBe('true')
 
-    jest.advanceTimersByTime(1000)
+    jest.advanceTimersByTime(duration + 100)
     expect(getByTestId(TEST_ID_STATUS).textContent).toBe('false')
 
     jest.useRealTimers()
