@@ -34,7 +34,7 @@
   "author": "danhuang1202@gmail.com",
   "license": "ISC",
   "peerDependencies": {
-    "react": "^16.8.6 || ^17.0.0"
+    "react": "^16.8.6 || ^17.0.0 || ^18"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
