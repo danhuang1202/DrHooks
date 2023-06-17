@@ -23,7 +23,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name: install
-      run: lerna bootstrap
+      run: npm install
     - name: lint
       run: lerna run lint
     - name: test
