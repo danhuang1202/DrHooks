@@ -28,6 +28,7 @@ jobs:
       run: |
         git config --global user.name "$USER_NAME"
         git config --global user.email "$USER_EMAIL"
+        echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
         lerna version --conventional-commits --yes
         lerna run ci-build
         lerna publish from-git --yes
