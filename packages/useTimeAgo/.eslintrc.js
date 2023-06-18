@@ -4,10 +4,7 @@ module.exports = {
     browser: true,
     jest: true
   },
-  extends: [
-    'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint'
-  ],
+  extends: ['plugin:@typescript-eslint/recommended', 'prettier'],
   plugins: ['@typescript-eslint', 'react', 'react-hooks'],
   parserOptions: {
     ecmaVersion: 2018,
