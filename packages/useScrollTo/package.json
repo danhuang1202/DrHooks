@@ -1,6 +1,6 @@
 {
   "name": "@dh-react-hooks/use-scrollto",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "react hooks for scrollTo",
   "main": "lib/index.js",
   "module": "es/index.js",

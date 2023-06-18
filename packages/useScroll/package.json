@@ -1,6 +1,6 @@
 {
   "name": "@dh-react-hooks/use-scroll",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "react hooks for getting scroll position",
   "main": "lib/index.js",
   "module": "es/index.js",
