@@ -1,6 +1,5 @@
 {
   "name": "root",
-  "private": true,
   "scripts": {
     "codecov": "codecov",
     "lerna:version": "lerna version --conventional-commits --yes"
@@ -24,8 +23,5 @@
     "packages/useScroll",
     "packages/useScrollTo",
     "packages/useTimeAgo"
-  ],
-  "publishConfig": {
-    "access": "public"
-  }
+  ]
 }
