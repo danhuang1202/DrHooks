@@ -29,3 +29,6 @@ jobs:
         npm run lerna:version
         lerna run ci-build
         lerna publish from-git --yes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
