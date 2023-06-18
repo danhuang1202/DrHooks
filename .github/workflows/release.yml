@@ -26,6 +26,5 @@ jobs:
       run: npm install
     - name: publish
       run: |
-        lerna run ci-build --stream
-        echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
-        lerna publish from-git --yes
+        npm run ci-build --workspaces
+        npm publish --workspaces
