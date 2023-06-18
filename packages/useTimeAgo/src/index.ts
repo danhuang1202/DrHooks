@@ -15,7 +15,7 @@ export type Options = {
     number: number,
     index: number,
     totalSecoends?: number
-  ) => string[]
+  ) => [string, string]
   /**
    *  update interval duration in milliseconds
    *  @default 1000
