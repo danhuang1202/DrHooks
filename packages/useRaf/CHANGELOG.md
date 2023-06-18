@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.2](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-raf@0.9.1...@dh-react-hooks/use-raf@0.9.2) (2023-06-18)
+
+
+### Bug Fixes
+
+* update package.json and package-lock.json ([2d14baa](https://github.com/danhuang1202/DrHooks/commit/2d14baa41b5aad1f55a2e47b5f5850a5cc35d599))
+
+
+
+
+
 ## [0.9.1](https://github.com/danhuang1202/DrHooks/compare/@dh-react-hooks/use-raf@0.9.0...@dh-react-hooks/use-raf@0.9.1) (2021-02-21)
 
 
