@@ -23,8 +23,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name: install
-      run: npm install --workspaces
+      run: npm install
     - name: lint
-      run: npm run lint --workspaces
+      run: lerna run lint
     - name: test
-      run: npm run ci-test --workspaces
+      run: lerna run ci-test

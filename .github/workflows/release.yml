@@ -27,5 +27,5 @@ jobs:
     - name: publish
       run: |
         npm run lerna:version
-        npm run ci-build --workspaces
-        npm publish --workspaces
+        lerna run ci-build
+        lerna publish from-git --yes
