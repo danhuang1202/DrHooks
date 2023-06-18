@@ -26,9 +26,13 @@ jobs:
       run: npm install
     - name: publish
       run: |
+        git config --global user.name $USER_NAME
+        git config --global user.email $USER_EMAIL
         npm run lerna:version
         lerna run ci-build
         lerna publish from-git --yes
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        USER_NAME: ${{ secrets.USER_NAME }}
+        USER_EMAIL: ${{ secrets.USER_EMAIL }}
