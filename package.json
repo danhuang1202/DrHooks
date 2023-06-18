@@ -24,5 +24,8 @@
     "packages/useScroll",
     "packages/useScrollTo",
     "packages/useTimeAgo"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
